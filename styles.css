@@ -1,3 +1,123 @@
-body {
-    /* background-color: antiquewhite; */
+html, body {
+    height: 100%;
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(212, 212, 212);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    height: 100vh;
+}
+div.logoHolder {
+    background-image: url(/images/background.jpg);
+    filter: contrast(130%);
+    filter: brightness(130%);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    gap: 60vh;
+    padding-top: 15vh;
+}
+div.formHolder {
+   width: 58vw;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   padding-left: 2vw;
+}
+.logoHolder img {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-height: 20vh;
+    
+}
+.logoHolder p {
+    margin-left: auto;
+    margin-right: 8px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.logoHolder p a {
+    text-decoration: none;
+    color: black;
+}
+.text, .forms {
+    width: 100%;
+}
+.text h3 {
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-size: 1.3em;
+}
+h3.colorize {
+    color: rgb(255, 172, 17);
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+div.allForms {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+    
+}
+form label {
+    display: block;
+}
+form input {
+    min-width: 250px;
+    margin-top: 15px;
+    background-color: black;
+    padding: 4px 8px;
+    color: white;
+    border: 1px solid rgb(159, 159, 159);
+}
+form input[type="submit"] {
+    background-color: black;
+    border: 2px solid orange;
+    padding: 16px 48px;
+    color: orange;
+    font-size: 1.5em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+form input[type="submit"]:hover {
+    background-color: orange;
+    color: black;   
+}
+
+
+
+
+
+.footer p a {
+    color: cyan;
+    text-decoration: none;
+    margin-left: 16px;
+}
+.footer p a:hover{
+    color: orange;
+
+}
+
+
