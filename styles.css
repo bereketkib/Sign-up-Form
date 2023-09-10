@@ -15,7 +15,7 @@ html, body {
     height: 100vh;
 }
 div.logoHolder {
-    background-image: url(/images/background.jpg);
+    background-image: url(images/background.jpg);
     filter: contrast(130%);
     filter: brightness(130%);
     background-size: cover; 
