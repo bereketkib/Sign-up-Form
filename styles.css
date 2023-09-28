@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Mooli&family=Rajdhani:wght@500&family=Roboto&display=swap');
 html, body {
     height: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
     margin: 0;
     padding: 0;
     background-color: black;
     color: rgb(212, 212, 212);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.1em;
 }
 
 .container {
@@ -97,6 +99,7 @@ form input {
     padding: 4px 8px;
     color: white;
     border: 1px solid rgb(159, 159, 159);
+    font-family: inherit;
 }
 .btn {
     padding-left: 4vw;
